@@ -1,0 +1,50 @@
+![](www/logo.png){width="200"}
+
+#### Overview
+
+This application allows you to calculate the biomass and Total Livestock Units (TLU) based on selected species and their populations. Biomass is an essential measure for understanding the potential weight of livestock or wildlife in a given area, expressed in units. TLU provides a standardized way to compare different types of livestock based on their potential live weight contribution.
+
+#### Point Estimation
+
+This method utilizes species-specific population numbers to estimate biomass based on TLU ratios. If you only have information about the animal populations, use this method. If you would like a more precise estimation of biomass and have additional information on the population demographic structure and live weight distributions, use the 'Stochastic Estimation'.
+
+#### Stochastic Estimation
+
+This method provides a more precise estimation of biomass utilizing additional information regarding population demographic structures (i.e., proportion of the population that is male or female, and castrated or intact), and known live weight distributions (i.e., min., max., and mode of the population weights). Some known population and weight profiles are included and can be modified if no data is available for your country but you expect the population to be similar to another. To access these profiles, click the 'Gear' in the top right of the 'Stochastic Estimation' page.
+
+#### **Total Livestock Units (TLU)**
+
+TLU is a standard unit that facilitates the aggregation of various livestock species based on their live weight equivalent to a standard reference weight. One TLU is equivalent to the live weight of one mature cow weighing approximately 250 kg.
+
+The TLU for each species is calculated using a species-specific ratio that represents the average live weight of the species as a fraction of the standard TLU reference weight. These ratios are predetermined based on extensive research and vary significantly across species due to differences in average body weights.
+
+##### TLU Calculation Formula:
+
+**TLU = Population x TLU Ratio**
+
+*\*TLU Ratios can be found here: <http://www.fao.org/3/t0828e/T0828E07.htm>*
+
+#### Biomass
+
+Biomass, in the context of this application, refers to the total live weight of livestock or wildlife in a given area. It is derived from the TLU by converting the TLU value back to a weight measure, using the standard reference weight.
+
+##### Biomass Calculation Formula:
+
+**Biomass = TLU x 250kg**
+
+#### TLU Ratios
+
+| Species              | TLU Ratio |
+|----------------------|-----------|
+| Asses                | 0.5       |
+| Camels               | 1.25      |
+| Cattle               | 0.7       |
+| Chickens             | 0.01      |
+| Goats                | 0.1       |
+| Horses               | 0.8       |
+| Mules and Hinnies    | 0.7       |
+| Sheep                | 0.1       |
+| Cattle and Buffaloes | 0.7       |
+| Poultry Birds        | 0.01      |
+| Sheep and Goats      | 0.1       |
+| Swine/Pigs           | 0.2       |

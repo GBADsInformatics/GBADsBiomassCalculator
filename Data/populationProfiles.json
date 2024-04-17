@@ -1,0 +1,48 @@
+{
+  "Ethiopia - Cattle": {
+    "Female Intact": {
+      "Juvenile": {
+        "Population": 100
+      },
+      "Sub-Adult": {
+        "Population": 200
+      },
+      "Adult": {
+        "Population": 300
+      }
+    },
+    "Female Castrated": {
+      "Juvenile": {
+        "Population": 110
+      },
+      "Sub-Adult": {
+        "Population": 210
+      },
+      "Adult": {
+        "Population": 310
+      }
+    },
+    "Male Intact": {
+      "Juvenile": {
+        "Population": 120
+      },
+      "Sub-Adult": {
+        "Population": 220
+      },
+      "Adult": {
+        "Population": 320
+      }
+    },
+    "Male Castrated": {
+      "Juvenile": {
+        "Population": 130
+      },
+      "Sub-Adult": {
+        "Population": 230
+      },
+      "Adult": {
+        "Population": 330
+      }
+    }
+  }
+}

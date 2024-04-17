@@ -1,0 +1,108 @@
+{
+  "Ethiopia - Cattle": {
+    "Female Intact": {
+      "Juvenile": {
+        "Population": 100,
+        "Weight": {
+          "Min": 50,
+          "Max": 150,
+          "Mode": 100
+        }
+      },
+      "Sub-Adult": {
+        "Population": 200,
+        "Weight": {
+          "Min": 200,
+          "Max": 300,
+          "Mode": 250
+        }
+      },
+      "Adult": {
+        "Population": 300,
+        "Weight": {
+          "Min": 300,
+          "Max": 400,
+          "Mode": 350
+        }
+      }
+    },
+    "Female Castrated": {
+      "Juvenile": {
+        "Population": 110,
+        "Weight": {
+          "Min": 55,
+          "Max": 165,
+          "Mode": 110
+        }
+      },
+      "Sub-Adult": {
+        "Population": 210,
+        "Weight": {
+          "Min": 210,
+          "Max": 310,
+          "Mode": 260
+        }
+      },
+      "Adult": {
+        "Population": 310,
+        "Weight": {
+          "Min": 310,
+          "Max": 410,
+          "Mode": 360
+        }
+      }
+    },
+    "Male Intact": {
+      "Juvenile": {
+        "Population": 120,
+        "Weight": {
+          "Min": 60,
+          "Max": 180,
+          "Mode": 120
+        }
+      },
+      "Sub-Adult": {
+        "Population": 220,
+        "Weight": {
+          "Min": 220,
+          "Max": 320,
+          "Mode": 270
+        }
+      },
+      "Adult": {
+        "Population": 320,
+        "Weight": {
+          "Min": 320,
+          "Max": 420,
+          "Mode": 370
+        }
+      }
+    },
+    "Male Castrated": {
+      "Juvenile": {
+        "Population": 130,
+        "Weight": {
+          "Min": 65,
+          "Max": 195,
+          "Mode": 130
+        }
+      },
+      "Sub-Adult": {
+        "Population": 230,
+        "Weight": {
+          "Min": 230,
+          "Max": 330,
+          "Mode": 280
+        }
+      },
+      "Adult": {
+        "Population": 330,
+        "Weight": {
+          "Min": 330,
+          "Max": 430,
+          "Mode": 380
+        }
+      }
+    }
+  }
+}

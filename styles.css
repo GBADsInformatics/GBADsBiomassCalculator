@@ -1,0 +1,47 @@
+.navbar-default {
+    display: none;
+}
+
+.bttn-unite.bttn-warning {
+    border-color: white;
+    color: #F59031;
+}
+
+.form-control{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.bttn-pill.bttn-warning {
+    background: #F59031;
+    color: #fff;
+}
+
+.bttn-jelly.bttn-warning {
+    background: #white;
+    color: ##F59031;
+}
+
+/* .modal-content {
+  background-color: rgba(255,255,255,0.75);
+  backdrop-filter: blur(4px);
+}
+
+.modal-backdrop {
+    background-color: white;
+}
+*/
+
+.input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group {
+    margin-right: -1px;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+    border-radius: 0px 100px 100px 0px;
+}
+
+.progress-bar{
+  border-radius: 100px;
+}
